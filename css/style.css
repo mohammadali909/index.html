@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f2f5;
+    font-family: Poppins , sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 450px;
+}
+
+.main-heading{
+    color: #1877f2;
+    font-size: 60px;
+    font-weight: 750;
+}
+
+.sub-heading{
+    color: black;
+    font-size: 25px;
+}
+
+.login-box{
+    background-color:#ffffff;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-right: 200px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0 );
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.email{
+    padding-top: 15px;
+    padding-left: 12px;
+}
+
+.email input{
+     height: 50px;
+     width: 370px;
+     border-radius: 6px;
+     padding-left: 5px;
+     margin-bottom: 15px;
+     font-size: 18px;
+     border: 1px solid #dddfe2;
+     -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+     -ms-border-radius: 6px;
+     -o-border-radius: 6px;
+}
+
+.btn{
+    background-color: #1877f2;
+    color: #fff;
+    height: 50px;
+    width: 370px;
+    border-radius: 6px;
+    margin-left: 15px;
+    margin-top: 5px;
+    border: none;
+    font-size: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: #1366d3;
+}
+
+.forget{
+    color: #1877f2;
+    width: 160px;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+
+.for:hover {
+    border-bottom: 1px solid #1877f2;
+}
+
+.icz{
+    border: 0.5px solid #dadde1;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 360px;
+}
+
+.btn-1{
+    background-color: #42b72a;
+    color: #fff;
+    height: 45px;
+    width: 200px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 6px;
+    margin-left: 95px;
+    margin-top: 25px;
+    border: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.btn-1:hover{
+    background-color: #00a400;
+}
+
+.last-line{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.font-size{
+    font-size: 15px;
+    font-weight: 100;
+}
